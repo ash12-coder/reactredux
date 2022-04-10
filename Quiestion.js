@@ -1,0 +1,38 @@
+const Questions = [
+  {
+    id: 1,
+    question: "1+1",
+    option1: "2",
+    option2: "3",
+    option3: "4",
+    option4: "1",
+    answer: "2",
+  },
+  {
+    id: 2,
+    question: "1+1+1",
+    option1: "2",
+    option2: "3",
+    option3: "4",
+    option4: "1",
+    answer: "3",
+  },
+  {
+    id: 1,
+    question: "1+1+1+1",
+    option1: "2",
+    option2: "3",
+    option3: "4",
+    option4: "1",
+    answer: "4",
+  },
+  {
+    id: 1,
+    question: "1+1+1+1+1",
+    option1: "2",
+    option2: "3",
+    option3: "5",
+    option4: "1",
+    answer: "5",
+  },
+];

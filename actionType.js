@@ -1,0 +1,2 @@
+export const REGISTER_STUDENT = "REGISTER_STUDENT";
+export const LOGIN_STUDENT = "LOGIN_STUDENT";
