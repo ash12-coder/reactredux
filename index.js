@@ -1,14 +1,18 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import { Provider } from "react-redux";
-import store from "./Store";
-import App from "./App";
+const studentReducer = (state = { student: [] }, action) => {
+  switch (action.type) {
+    case "REGISTER_STUDENT":
+      return {
+        ...state,
+        student: action.payload,
+      };
+    case "LOGIN_STUDENT":
+      return {
+        ...state,
+        student: action.payload,
+      };
+    default:
+      return state;
+  }
+};
 
-ReactDOM.render(
-  <React.StrictMode>
-    <Provider store={store}>
-      <App />
-    </Provider>
-  </React.StrictMode>,
-  document.getElementById("root")
-);
+export default studentReducer;
